@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Volunpeer</title>
+    <link rel="shortcut icon" type="image/png" href="../images/favicon.png">
+      <link rel="stylesheet" type="text/css" href="../css/style.css">
+  </head>
+  <body class="sector_information">
+
+    <div class="custom-padding">
+      <nav>
+        <ul class='menu-area'>
+          <li><a href="landing-page.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#sectors">Sectors</a></li>
+          <li><a href="connect.html">Get in Touch</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div id='sectors'>
+      <h1>You can find opportunities in the following sectors</h1>
+  </div>
+        <div class="space">
+        <button class="collapsible" id="environment">Environment</button>
+          <div class="content">
+            <p>Voluteer for local organisations that seek to help lower carbon emissions, reduce the waste of local households and businesses or plant trees across the city </p>
+          </div>
+        </div>
+
+        <div class="space">
+        <button class="collapsible" id="refugees">Refugees</button>
+          <div class="content">
+            <p> With over 30,000 refugees coming to the UK per year, passionate volunteers are needed to help these people resettle into their new home. Have you got some spare time to teach English, tutor young refugee children or even befriend a family? </p>
+          </div>
+        </div>
+
+        <div class="space">
+        <button class="collapsible" id="care">Care</button>
+          <div class="content">
+            <p>Loneliness is likely to increase your risk of death by 29%, as well as dementia, heart disease and depression...Help those affected by elderly isolation and provide nessecary care to thousands of elderly people in need.</p>
+          </div>
+        </div>
+
+        <div class="space">
+        <button class="collapsible" id="animals">Animals</button>
+          <div class="content">
+            <p>If you feel passionate about animal rights and wellbeing, working with them in a voluntary capacity can be incredibly rewarding. You get to do something that you truly believe in, all while giving something back to society.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.display === "block") {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+        });
+      }
+</script>
+
+  </body>
+</html>
