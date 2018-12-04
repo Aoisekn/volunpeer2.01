@@ -94,6 +94,8 @@ body.our_mission{
   padding-left: 25px;
   margin: 40px;
   font-family:'Ubuntu', sans-serif;
+  background-color: #6fa574;
+  color: white;
   /*If you want to change font color use 'color'*/
   /*If you want to fill the boxes with colour instead of just having a border use 'background-color'*/
 }
@@ -111,6 +113,8 @@ body.our_mission{
   padding-left: 25px;
   margin: 40px;
   font-family:'Ubuntu', sans-serif;
+  background-color: #6fa574;
+  color: white;
   /*If you want to change font color use 'color'*/
   /*If you want to fill the boxes with colour instead of just having a border use 'background-color'*/
 }
